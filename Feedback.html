@@ -1,0 +1,77 @@
+<!-- Designed By Tharindu Vishal -->
+<html>
+    <head>
+        <title>Hotel Alpha - Registration form</title>
+        
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+            <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+            <link rel="stylesheet" href="vendors/css/jquery-ui_2.css">
+            <script src="vendors/js/jquery-1.10.2.js"></script>
+            <script src="vendors/js/jquery-3.2.1.min.js"></script>
+            <script src="vendors/js/jquery-ui.js"></script>
+            <link href="vendors/css/animate.css" rel="stylesheet"/>
+            <link href="vendors/css/waypoints.css" rel="stylesheet"/>
+            <script src="vendors/js/jquery.waypoints.min.js" type="text/javascript"></script>
+            <script src="vendors/js/waypoints.js" type="text/javascript"></script>
+            <script src="resources/js/menucode.js"></script>
+            <script src="vendors/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" type="text/css" href="resources/css/style-feedback.css">
+            
+       
+    
+            <!-- external vendor CSS files import for the project -->
+            <link rel="stylesheet" type="text/css" href="vendors/css/4cols.css">
+            <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+            <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+            <link rel="stylesheet" type="text/css" href="vendors/css/bootstrap.min.css">
+        
+        <script type="text/javascript" language="javascript">
+            function validateme(){
+                var text = document.getElementById("textb").value;
+                
+                if (text == ""){
+                    window.alert("Please fill the box");
+                }
+                else{
+                    window.alert("Thanks for your feedback!")
+                }
+            }
+        </script>
+        
+    </head>
+    <body>
+        <center>
+        <div class="head">
+            USER FEEDBACK FORM
+        </div>
+        <div class="fb-box">
+            <header>
+                <div class="image">
+                    <img src="resources/img/logo.png">
+                </div>
+                <div class="hotel">HOTEL ALPHA</div>
+            </header>
+            <form class="form-control" id="fbform-box">
+                <div class="icon">
+                    <span class="fa fa-user"></span>
+                </div>
+                <div>
+                    <select class="form-control" class="nptes">
+                        <option>FOODS</option>
+                         <option>ROOMS SERVICE</option>
+                         <option>FACILITIES</option>
+                         <option>HOSPITALITY</option>
+                         <option>OTHER</option>s
+                    </select>
+                </div>
+                <div>
+                    <textarea class="form-control" name="feedback" id="textb"></textarea>
+                </div>
+                <input type="submit" name="submit" class="sub-butn" onclick="validateme()" value="Submit">
+               
+            </form>
+        </div>
+            </center>
+    </body>
+
+</html>

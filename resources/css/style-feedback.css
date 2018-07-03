@@ -1,0 +1,99 @@
+body{
+    background-image: url(img/pkgbanner.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    height: 100vh;
+}
+.head
+{
+    width: 42%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color:deeppink;
+    font-family: fantasy;
+}
+.fb-box 
+{
+    width: 40%;
+    height: 80%;
+    background:#eceff1;
+    padding: 10px;
+    /*box-shadow: 1px 1px 1px #555;*/
+    //position: absolute;
+    overflow: hidden;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    color: #0076c0;
+}
+image{
+   
+    width: 150px;
+    height: 100px;
+    
+}
+.image img
+{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 100px;
+}
+.hotel{
+    font-size:px;
+    font-family:fantasy;
+    color:royalblue;
+}
+#fbform-box
+{
+    padding: 10px;
+}
+.nptes
+{
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #999;
+    
+}
+.nptes:focus
+{
+    outline: none;
+    color: #009688;
+    font-weight: bolder;
+    border-bottom: 1px solid #009688;
+}
+.sub-butn
+{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background: #009688;
+    cursor:pointer;
+    margin-top: 5px;
+}
+.sub-butn:focus
+{
+    outline: none;
+}
+.sub-butn:hover
+{
+    background:deeppink;
+}
+
+input
+{
+    margin-left: 35px;
+}
+textarea{
+    width: 100%;
+    height:40%;
+    margin-bottom: 10px;
+    margin-top: px;
+}
+

@@ -1,0 +1,106 @@
+body{
+    background-image: url(img/pkgbanner.jpg);
+    background-size: cover;
+    padding-top: 2%;
+    padding-left: 30%;
+    padding-bottom: 2%;
+    padding-right: 0;
+}
+.head
+{
+    width: 42%;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+}
+.reg-box 
+{
+    width: 40%;
+    height: 80%;
+    background:#eceff1;
+    padding: 10px;
+    /*box-shadow: 1px 1px 1px #555;*/
+    position: relative;
+}
+header{
+    text-align: center;
+    font-size: 30px;
+    color: #0076c0;
+}
+image{
+   
+    width: 150px;
+    height: 100px;
+    
+}
+.image img
+{
+    margin-bottom: 10px;
+    width: 150px;
+    height: 100px;
+}
+.hotel{
+    font-size:px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+#rgform-box
+{
+    padding: 10px;
+}
+.nptes
+{
+    width: 100%;
+    padding: 10px 10px 10px 0;
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid #999;
+    font-size: 15px;
+    color: #009688;
+    background: #eceff1;
+    
+}
+.nptes:focus
+{
+    outline: none;
+    color: #009688;
+    font-weight: bolder;
+    border-bottom: 1px solid #009688;
+}
+.sub-butn
+{
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #fff;
+    background: #009688;
+    cursor:pointer;
+}
+.sub-butn:focus
+{
+    outline: none;
+}
+.sub-butn:hover
+{
+    background: #00796b;
+}
+.footer
+{
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    color: #546e7a;
+    
+}
+.footer a
+{
+    text-decoration: none;
+    color: #1976d2;
+}
+input
+{
+    margin-left: 35px;
+}
+
