@@ -1,0 +1,97 @@
+<!-- Designed By Asitha Lakmal -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="resources/css/spevent.css">
+
+</head>
+<body>
+<div class="slideshow-container">
+    <div class="mySlides">
+        <div class="img1">
+            <div class="tex-dv">
+                <div class="text1">PARTY DJ BEAT MIX MUSIC DANCE</div>
+                <div class="text2">HOTEL ALPHA 20TH ANNIVERSARY</div>
+                <div class="text3">FEATURING</div>
+                <div class="text4">DJ SKRILLEX</div>
+                <div class="text5">31ST DECEMBER HOTEL ALPHA PREMISES</div>
+                 <div class="text6">FOR TABLE RESERVATIONS PLEASE CALL 011-45698756|136 COLLINS AVAENU COLOMBO 8</div>
+     
+            </div>
+        </div>
+    </div>
+
+    <div class="mySlides">
+        <div class="img2">
+        <div class="tex-dv">
+                <div class="text7">SPRING FLARE</div>
+                <div class="text8">THE FESTIVAL OF COLOURS</div>
+                <div class="text9">SRI LANKAN</div>
+                <div class="text10">BIGGEST COLOUR FESTIVAL</div>
+                <div class="text11">SUN 26 JANUARY 2018</div>
+                <div class="text12">HOTEL ALPHA GROUND</div>
+                <div class="text13">DUBMARIN</div>
+                <div class="text14">BOBBY ALU.WILLWO BEATS</div>
+                <div class="text15">MICHELLE XEN & THE NEON WILD</div>
+                <div class="text16">THE BELLIGERENTS.TIBET2TIMBUK2</div>
+                <div class="text17">COLOUR COUNTDOWNS EVERY HOUR FROM 12PM MULTICULTURAL PERFORMANCE AND ACTIVITIES</div>
+                <div class="text18">INTERNATIONAL FOODS</div>
+                <div class="text19">(FREE ENTRANCE)</div>
+                
+            
+            </div> 
+        </div>
+    </div>
+
+    <div class="mySlides">
+        <div class="img3">
+            <div class="tex-dv">
+                <div class="text21">HALLOWEEN FESTIVAL</div>
+                <div class="text23">OCTOBER 30,8PM TO FOLLOWINGDAY MORNING</div>
+                <div class="text20">Bounce Houses,Activities,Food and Prizes</div>
+                <div class="text20">Pluse</div>
+                <div class="text20">HAlloween Safety Workshop</div>
+                <div class="text20">& Board breaking!</div>
+                <div class="text20">08.00P.M and 2.00A.M</div>
+                <div class="text22">Tickets On Sales</div>
+                <div class="text20">10 activity Punch pass $5</div>
+                <div class="text20">unlimited Wristband $10</div>
+                <div class="text20">Don't miss the Parents Alley wirth Booths and Prizes</div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html> 

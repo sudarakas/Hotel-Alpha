@@ -1,0 +1,201 @@
+body{
+    background: rgba(0,0,0,1.5);
+}
+* {box-sizing:border-box}
+
+.mySlides {
+    display:none;
+}
+
+.slideshow-container {
+  max-width:100%;
+height: 100%;
+  position: relative;
+}
+
+.img1{
+    background-image: url("img/1.jpg");
+    background-size: cover;
+    width:100%;
+    height:100%;
+    
+    
+}
+.img2{
+    background-image: url("img/2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    
+}
+.img3{
+    background-image: url("img/3.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    
+}
+.tex-dv{
+    background: rgba(0,0,0,.7);
+    widows: 100%;
+    height: 800px;
+    text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+.text1{
+    font-size: 60px;
+    font-family: cursive;
+    color: yellow;
+}
+.text2{
+    font-size: 50px;
+    color:aqua;
+    font-family: fantasy;
+}
+.text3{
+    font-size: 50px;
+    color: white;
+}
+.text4{
+    font-size: 100px;
+    color: deeppink;
+    font-family: cursive;
+}
+.text5{
+    font-size: 80px;
+    color: gold;
+    font-family:monospace;
+}
+.text6{
+    font-size: 40px;
+    color:aliceblue;
+    font-family:inherit;
+}
+.text7{
+    font-size: 100px;
+    color:aqua;
+    font-family:cursive;
+}
+.text8{
+    font-size: 40px;
+    color:gold;
+    font-family:cursive;
+}
+.text9{
+    font-size: 30px;
+    color:greenyellow;
+    font-family:inherit;
+}
+.text10{
+    font-size: 30px;
+    color:deeppink;
+    font-family:cursive;
+}
+.text11{
+    font-size: 30px;
+    color:skyblue;
+    font-family:fantasy;
+}
+.text12{
+    font-size: 30px;
+    color:antiquewhite;
+    font-family:cursive;
+}
+.text13{
+    font-size: 30px;
+    color:gray;
+    font-family:serif;
+}
+.text14{
+    font-size: 30px;
+    color:deepskyblue;
+    font-family:cursive;
+}
+.text15{
+    font-size: 30px;
+    color:burlywood;
+    font-family:cursive;
+}
+.text16{
+    font-size: 30px;
+    color:chartreuse;
+    font-family:cursive;
+}
+.text17{
+    font-size: 30px;
+    color:fuchsia;
+    font-family:inherit;
+}
+.text18{
+    font-size: 30px;
+    color:cyan;
+    font-family:cursive;
+}
+.text19{
+    font-size: 30px;
+    color:gold;
+    font-family:cursive;
+}
+.text20{
+    font-size: 40px;
+    color:aliceblue;
+    font-family:cursive;
+}
+.text21{
+    font-size: 60px;
+    color:yellow;
+    font-family:cursive;
+}
+.text22{
+    font-size: 60px;
+    color:yellow;
+    font-family:cursive;
+}
+.text23{
+    font-size: 60px;
+    color:orange;
+    font-family:cursive;
+}
+
+
+
+
+
+
