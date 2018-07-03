@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background: #0076C9;
+}
+#wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    margin-bottom: -4px;
+} 
+.one-third{
+    width: 29%;
+    float: left;
+    margin: 2%; 
+}
+
+img:hover{
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px){
+    .one-fifth{
+        width: 48%;
+        margin: 1%;
+    }
+}
+@media screen and (max-width: 480px){
+    .one-fifth{
+        width: 98%;
+        margin: 1%;
+    }
+}
+.gallery{
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(img/gallery%20backgroud.jpg);
+    width: 100%;
+}
+.gmenu{
+    color: rgba(255, 255, 255, 0.47);
+    text-align: center;
+    font-family: Verdana;
+    margin-top: 70px;
+}
+.gmenu h5{
+    font-family: Agency FB;
+    margin-top: -25px;
+
+}
